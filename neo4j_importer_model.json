@@ -1,0 +1,825 @@
+{
+  "version": "1.3.0-beta.0",
+  "graph": {
+    "nodes": [
+      {
+        "id": "n0",
+        "position": {
+          "x": -6,
+          "y": 243
+        },
+        "caption": "Pattern"
+      },
+      {
+        "id": "n1",
+        "position": {
+          "x": -6,
+          "y": 71.01757184653216
+        },
+        "caption": "Smell"
+      },
+      {
+        "id": "n4",
+        "position": {
+          "x": 285,
+          "y": 71.01757184653216
+        },
+        "caption": "Smell"
+      },
+      {
+        "id": "n5",
+        "position": {
+          "x": 285,
+          "y": 243
+        },
+        "caption": "Pattern"
+      },
+      {
+        "id": "n6",
+        "position": {
+          "x": 243.82095257030664,
+          "y": -78.21543943738125
+        },
+        "caption": "Smell"
+      },
+      {
+        "id": "n7",
+        "position": {
+          "x": 243.82095257030664,
+          "y": 392.23301128391336
+        },
+        "caption": "Pattern"
+      }
+    ],
+    "relationships": [
+      {
+        "id": "n0",
+        "type": "Leads to",
+        "fromId": "n1",
+        "toId": "n4"
+      },
+      {
+        "id": "n1",
+        "type": "Variation of",
+        "fromId": "n0",
+        "toId": "n5"
+      },
+      {
+        "id": "n2",
+        "type": "Alias",
+        "fromId": "n1",
+        "toId": "n6"
+      }
+    ]
+  },
+  "dataModel": {
+    "version": "1.3.0-beta.0",
+    "graphSchemaRepresentation": {
+      "version": "1.0.0",
+      "graphSchema": {
+        "nodeLabels": [
+          {
+            "$id": "nl:n0",
+            "token": "Pattern",
+            "properties": [
+              {
+                "$id": "p:7",
+                "token": "Name",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:8",
+                "token": "Page",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:9",
+                "token": "Chapter",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:10",
+                "token": "Type",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:n1",
+            "token": "Smell",
+            "properties": [
+              {
+                "$id": "p:2",
+                "token": "Name",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:3",
+                "token": "Page",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:4",
+                "token": "Chapter",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:5",
+                "token": "Type",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:n4",
+            "token": "Smell",
+            "properties": [
+              {
+                "$id": "p:6",
+                "token": "Name",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:n5",
+            "token": "Pattern",
+            "properties": [
+              {
+                "$id": "p:11",
+                "token": "Name",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:n6",
+            "token": "Smell",
+            "properties": [
+              {
+                "$id": "p:12",
+                "token": "Name",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:n7",
+            "token": "Pattern",
+            "properties": [
+              {
+                "$id": "p:13",
+                "token": "Name",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          }
+        ],
+        "relationshipTypes": [
+          {
+            "$id": "rt:n0",
+            "token": "Leads to",
+            "properties": []
+          },
+          {
+            "$id": "rt:n1",
+            "token": "Variation of",
+            "properties": []
+          },
+          {
+            "$id": "rt:n2",
+            "token": "Alias",
+            "properties": []
+          }
+        ],
+        "nodeObjectTypes": [
+          {
+            "$id": "n:n0",
+            "labels": [
+              {
+                "$ref": "#nl:n0"
+              }
+            ]
+          },
+          {
+            "$id": "n:n1",
+            "labels": [
+              {
+                "$ref": "#nl:n1"
+              }
+            ]
+          },
+          {
+            "$id": "n:n4",
+            "labels": [
+              {
+                "$ref": "#nl:n4"
+              }
+            ]
+          },
+          {
+            "$id": "n:n5",
+            "labels": [
+              {
+                "$ref": "#nl:n5"
+              }
+            ]
+          },
+          {
+            "$id": "n:n6",
+            "labels": [
+              {
+                "$ref": "#nl:n6"
+              }
+            ]
+          },
+          {
+            "$id": "n:n7",
+            "labels": [
+              {
+                "$ref": "#nl:n7"
+              }
+            ]
+          }
+        ],
+        "relationshipObjectTypes": [
+          {
+            "$id": "r:n0",
+            "type": {
+              "$ref": "#rt:n0"
+            },
+            "from": {
+              "$ref": "#n:n1"
+            },
+            "to": {
+              "$ref": "#n:n4"
+            }
+          },
+          {
+            "$id": "r:n1",
+            "type": {
+              "$ref": "#rt:n1"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n5"
+            }
+          },
+          {
+            "$id": "r:n2",
+            "type": {
+              "$ref": "#rt:n2"
+            },
+            "from": {
+              "$ref": "#n:n1"
+            },
+            "to": {
+              "$ref": "#n:n6"
+            }
+          }
+        ],
+        "constraints": [],
+        "indexes": []
+      }
+    },
+    "graphSchemaExtensionsRepresentation": {
+      "nodeKeyProperties": [
+        {
+          "node": {
+            "$ref": "#n:n4"
+          },
+          "keyProperty": {
+            "$ref": "#p:6"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n1"
+          },
+          "keyProperty": {
+            "$ref": "#p:2"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n0"
+          },
+          "keyProperty": {
+            "$ref": "#p:7"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n5"
+          },
+          "keyProperty": {
+            "$ref": "#p:11"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n6"
+          },
+          "keyProperty": {
+            "$ref": "#p:12"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n7"
+          },
+          "keyProperty": {
+            "$ref": "#p:13"
+          }
+        }
+      ]
+    },
+    "graphMappingRepresentation": {
+      "dataSourceSchema": {
+        "type": "local/csv",
+        "tableSchemas": [
+          {
+            "$id": "t:1",
+            "name": "patterns.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "Name",
+                "type": "string",
+                "sample": "Abstract Setup Decorator",
+                "include": true
+              },
+              {
+                "name": "Page",
+                "type": "integer",
+                "sample": "449",
+                "include": true
+              },
+              {
+                "name": "Relationship",
+                "type": "string",
+                "sample": "Variation",
+                "include": true
+              },
+              {
+                "name": "Base Name",
+                "type": "string",
+                "sample": "Setup Decorator",
+                "include": true
+              },
+              {
+                "name": "Chapter",
+                "type": "string",
+                "sample": "Chapter 20",
+                "include": true
+              },
+              {
+                "name": "Type",
+                "type": "string",
+                "sample": "Fixture Setup Patterns",
+                "include": true
+              }
+            ]
+          },
+          {
+            "$id": "t:2",
+            "name": "smells.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "Name",
+                "type": "string",
+                "sample": "Assertion Roulette",
+                "include": true
+              },
+              {
+                "name": "Page",
+                "type": "integer",
+                "sample": "224",
+                "include": true
+              },
+              {
+                "name": "Relationship",
+                "type": "string",
+                "sample": "",
+                "include": true
+              },
+              {
+                "name": "Base Name",
+                "type": "string",
+                "sample": "Assertion Roulette",
+                "include": true
+              },
+              {
+                "name": "Chapter",
+                "type": "string",
+                "sample": "Chapter 16",
+                "include": true
+              },
+              {
+                "name": "Type",
+                "type": "string",
+                "sample": "Behavior Smells",
+                "include": true
+              }
+            ]
+          },
+          {
+            "$id": "t:3",
+            "name": "pattern-variations.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "Name",
+                "type": "string",
+                "sample": "Abstract Setup Decorator",
+                "include": true
+              },
+              {
+                "name": "Page",
+                "type": "integer",
+                "sample": "449",
+                "include": true
+              },
+              {
+                "name": "Relationship",
+                "type": "string",
+                "sample": "Variation",
+                "include": true
+              },
+              {
+                "name": "Base Name",
+                "type": "string",
+                "sample": "Setup Decorator",
+                "include": true
+              },
+              {
+                "name": "Chapter",
+                "type": "string",
+                "sample": "Chapter 20",
+                "include": true
+              },
+              {
+                "name": "Type",
+                "type": "string",
+                "sample": "Fixture Setup Patterns",
+                "include": true
+              }
+            ]
+          },
+          {
+            "$id": "t:4",
+            "name": "pattern-aliases.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "Name",
+                "type": "string",
+                "sample": "Abstract Test Fixture",
+                "include": true
+              },
+              {
+                "name": "Page",
+                "type": "integer",
+                "sample": "638",
+                "include": true
+              },
+              {
+                "name": "Relationship",
+                "type": "string",
+                "sample": "Alias",
+                "include": true
+              },
+              {
+                "name": "Base Name",
+                "type": "string",
+                "sample": "Testcase Superclass",
+                "include": true
+              },
+              {
+                "name": "Chapter",
+                "type": "string",
+                "sample": "Chapter 24",
+                "include": true
+              },
+              {
+                "name": "Type",
+                "type": "string",
+                "sample": "Test Organization Patterns",
+                "include": true
+              }
+            ]
+          },
+          {
+            "$id": "t:5",
+            "name": "smell-causes.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "Name",
+                "type": "string",
+                "sample": "Asynchronous Test",
+                "include": true
+              },
+              {
+                "name": "Page",
+                "type": "integer",
+                "sample": "255",
+                "include": true
+              },
+              {
+                "name": "Relationship",
+                "type": "string",
+                "sample": "Cause of",
+                "include": true
+              },
+              {
+                "name": "Base Name",
+                "type": "string",
+                "sample": "Hard-to-Test Code",
+                "include": true
+              },
+              {
+                "name": "Chapter",
+                "type": "string",
+                "sample": "Chapter 16",
+                "include": true
+              },
+              {
+                "name": "Type",
+                "type": "string",
+                "sample": "Behavior Smells",
+                "include": true
+              }
+            ]
+          },
+          {
+            "$id": "t:6",
+            "name": "smell-aliases.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "Name",
+                "type": "string",
+                "sample": "Complex Test",
+                "include": true
+              },
+              {
+                "name": "Page",
+                "type": "integer",
+                "sample": "186",
+                "include": true
+              },
+              {
+                "name": "Relationship",
+                "type": "string",
+                "sample": "Alias",
+                "include": true
+              },
+              {
+                "name": "Base Name",
+                "type": "string",
+                "sample": "Obscure Test",
+                "include": true
+              },
+              {
+                "name": "Chapter",
+                "type": "string",
+                "sample": "Chapter 15",
+                "include": true
+              },
+              {
+                "name": "Type",
+                "type": "string",
+                "sample": "Code Smells",
+                "include": true
+              }
+            ]
+          }
+        ]
+      },
+      "nodeMappings": [
+        {
+          "node": {
+            "$ref": "#n:n1"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "Name",
+              "property": {
+                "$ref": "#p:2"
+              }
+            },
+            {
+              "fieldName": "Page",
+              "property": {
+                "$ref": "#p:3"
+              }
+            },
+            {
+              "fieldName": "Chapter",
+              "property": {
+                "$ref": "#p:4"
+              }
+            },
+            {
+              "fieldName": "Type",
+              "property": {
+                "$ref": "#p:5"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n4"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "Name",
+              "property": {
+                "$ref": "#p:6"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n0"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "Name",
+              "property": {
+                "$ref": "#p:7"
+              }
+            },
+            {
+              "fieldName": "Page",
+              "property": {
+                "$ref": "#p:8"
+              }
+            },
+            {
+              "fieldName": "Chapter",
+              "property": {
+                "$ref": "#p:9"
+              }
+            },
+            {
+              "fieldName": "Type",
+              "property": {
+                "$ref": "#p:10"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n5"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "Name",
+              "property": {
+                "$ref": "#p:11"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n6"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "Name",
+              "property": {
+                "$ref": "#p:12"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n7"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "Name",
+              "property": {
+                "$ref": "#p:13"
+              }
+            }
+          ]
+        }
+      ],
+      "relationshipMappings": [
+        {
+          "relationship": {
+            "$ref": "#r:n0"
+          },
+          "tableSchema": {
+            "$ref": "#t:5"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "Name"
+          },
+          "toMapping": {
+            "fieldName": "Base Name"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n1"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "Name"
+          },
+          "toMapping": {
+            "fieldName": "Base Name"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n2"
+          },
+          "tableSchema": {
+            "$ref": "#t:6"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "Name"
+          },
+          "toMapping": {
+            "fieldName": "Base Name"
+          }
+        }
+      ]
+    },
+    "configurations": {
+      "idsToIgnore": []
+    }
+  }
+}

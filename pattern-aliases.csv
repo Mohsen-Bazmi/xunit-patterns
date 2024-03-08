@@ -1,0 +1,63 @@
+Name,Page,Relationship,Base Name,Chapter,Type
+Abstract Test Fixture,638,Alias,Testcase Superclass,Chapter 24,Test Organization Patterns
+Abstract Testcase,638,Alias,Testcase Superclass,Chapter 24,Test Organization Patterns
+Bespoke Assertion,474,Alias,Custom Assertion,Chapter 21,Result Veriﬁcation Patterns
+Calculated Values,718,Alias,Derived Value,Chapter 27,Value Patterns
+Capture/Playback Test,278,Alias,Recorded Test,Chapter 18,Test Strategy Patterns
+Cleanup Method,602,Alias,Test Utility Method,Chapter 24,Test Organization Patterns
+Component Broker,686,Alias,Dependency Lookup,Chapter 26,Design-for-Testability Patterns
+Component Registry,686,Alias,Dependency Lookup,Chapter 26,Design-for-Testability Patterns
+Conﬁgurable Mock Object,558,Alias,Conﬁgurable Test Double,Chapter 23,Test Double Patterns
+Conﬁgurable Test Spy,558,Alias,Conﬁgurable Test Double,Chapter 23,Test Double Patterns
+Conﬁgurable Test Stub,558,Alias,Conﬁgurable Test Double,Chapter 23,Test Double Patterns
+Constant Value,714,Alias,Literal Value,Chapter 27,Value Patterns
+Dummy,728,Alias,Dummy Object,Chapter 27,Value Patterns
+Dummy Value,728,Alias,Dummy Object,Chapter 27,Value Patterns
+Expected Behavior,470,Alias,Behavior Veriﬁcation,Chapter 21,Result Veriﬁcation Patterns
+Expected Object,464,Alias,State Veriﬁcation,Chapter 21,Result Veriﬁcation Patterns
+Framework-Invoked Setup,424,Alias,Implicit Setup,Chapter 20,Fixture Setup Patterns
+Framework-Invoked Teardown,516,Alias,Implicit Teardown,Chapter 22,Fixture Teardown Patterns
+Fresh Context,311,Alias,Fresh Fixture,Chapter 18,Test Strategy Patterns
+Hand-Scripted Test,285,Alias,Scripted Test,Chapter 18,Test Strategy Patterns
+Hand-Written Test,285,Alias,Scripted Test,Chapter 18,Test Strategy Patterns
+Hard-Coded Mock Object,568,Alias,Hard-Coded Test Double,Chapter 23,Test Double Patterns
+Hard-Coded Test Stub,568,Alias,Hard-Coded Test Double,Chapter 23,Test Double Patterns
+Hard-Coded Value,714,Alias,Literal Value,Chapter 27,Value Patterns
+Hooked Setup,424,Alias,Implicit Setup,Chapter 20,Fixture Setup Patterns
+Hooked Teardown,516,Alias,Implicit Teardown,Chapter 22,Fixture Teardown Patterns
+Imposter,522,Alias,Test Double,Chapter 23,Test Double Patterns
+Interaction Testing,468,Alias,Behavior Veriﬁcation,Chapter 21,Result Veriﬁcation Patterns
+Layer-Crossing Test,327,Alias,Back Door Manipulation,Chapter 18,Test Strategy Patterns
+Layered Test,337,Alias,Layer Test,Chapter 18,Test Strategy Patterns
+Leftover Fixture,317,Alias,Shared Fixture,Chapter 18,Test Strategy Patterns
+Minimal Context,302,Alias,Minimal Fixture,Chapter 18,Test Strategy Patterns
+Object Factory,686,Alias,Dependency Lookup,Chapter 26,Design-for-Testability Patterns
+Placeholder,728,Alias,Dummy Object,Chapter 27,Value Patterns
+Prebuilt Context,429,Alias,Prebuilt Fixture,Chapter 20,Fixture Setup Patterns
+Private Fixture,311,Alias,Fresh Fixture,Chapter 18,Test Strategy Patterns
+Programmatic Test,285,Alias,Scripted Test,Chapter 18,Test Strategy Patterns
+Record and Playback Test,278,Alias,Recorded Test,Chapter 18,Test Strategy Patterns
+Reused Fixture,317,Alias,Shared Fixture,Chapter 18,Test Strategy Patterns
+Robot User Test,278,Alias,Recorded Test,Chapter 18,Test Strategy Patterns
+Row Test,609,Alias,Parameterized Test,Chapter 24,Test Organization Patterns
+SUT API Encapsulation,601,Alias,Test Utility Method,Chapter 24,Test Organization Patterns
+Service Locator,686,Alias,Dependency Lookup,Chapter 26,Design-for-Testability Patterns
+Shared Context,317,Alias,Shared Fixture,Chapter 18,Test Strategy Patterns
+Shared Setup Method,424,Alias,Implicit Setup,Chapter 20,Fixture Setup Patterns
+Single-Layer Test,337,Alias,Layer Test,Chapter 18,Test Strategy Patterns
+Spy,538,Alias,Test Spy,Chapter 23,Test Double Patterns
+Stale Fixture,317,Alias,Shared Fixture,Chapter 18,Test Strategy Patterns
+Standard Context,305,Alias,Standard Fixture,Chapter 18,Test Strategy Patterns
+State-Based Testing,462,Alias,State Veriﬁcation,Chapter 21,Result Veriﬁcation Patterns
+Stub,529,Alias,Test Stub,Chapter 23,Test Double Patterns
+Stub,728,Alias,Dummy Object,Chapter 27,Value Patterns
+Subclassed Singleton,581,Alias,Test-Speciﬁc Subclass,Chapter 23,Test Double Patterns
+Subclassed Test Double,581,Alias,Test-Speciﬁc Subclass,Chapter 23,Test Double Patterns
+Substitutable Singleton,581,Alias,Test-Speciﬁc Subclass,Chapter 23,Test Double Patterns
+Test Bed,429,Alias,Prebuilt Fixture,Chapter 20,Fixture Setup Patterns
+Test Fixture,373,Alias,Testcase Class,Chapter 19,xUnit Basics Patterns
+Test Object Registry,503,Alias,Automated Teardown,Chapter 22,Fixture Teardown Patterns
+Test Spy,568,Alias,Hard-Coded Test Double,Chapter 23,Test Double Patterns
+Test Suite Factory,399,Alias,Test Enumeration,Chapter 19,xUnit Basics Patterns
+Test-Speciﬁc Extension,579,Alias,Test-Speciﬁc Subclass,Chapter 23,Test Double Patterns
+Testing by Layers,337,Alias,Layer Test,Chapter 18,Test Strategy Patterns

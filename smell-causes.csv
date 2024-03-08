@@ -1,0 +1,49 @@
+Name,Page,Relationship,Base Name,Chapter,Type
+Asynchronous Test,255,Cause of,Hard-to-Test Code,Chapter 16,Behavior Smells
+Behavior Sensitivity,242,Cause of,Fragile Test,Chapter 16,Behavior Smells
+Complex Teardown,206,Cause of,Conditional Test Logic,Chapter 15,Code Smells
+Conditional Verification Logic,203,Cause of,Conditional Test Logic,Chapter 15,Code Smells
+Context Sensitivity,245,Cause of,Fragile Test,Chapter 16,Behavior Smells
+Cut-and-Paste Code Reuse,214,Cause of,Test Code Duplication,Chapter 15,Code Smells
+Data Sensitivity,243,Cause of,Fragile Test,Chapter 16,Behavior Smells
+Eager Test,224,Cause of,Assertion Roulette,Chapter 16,Behavior Smells
+Equality Pollution,221,Cause of,Test Logic in Production,Chapter 15,Code Smells
+Flexible Test,202,Cause of,Conditional Test Logic,Chapter 15,Code Smells
+For Tests Only,219,Cause of,Test Logic in Production,Chapter 15,Code Smells
+Fragile Fixture,246,Cause of,Fragile Test,Chapter 16,Behavior Smells
+General Fixture,190,Cause of,Obscure Test,Chapter 15,Code Smells
+Hard-Coded Test Data,194,Cause of,Obscure Test,Chapter 15,Code Smells
+Highly Coupled Code,210,Cause of,Hard-to-Test Code,Chapter 15,Code Smells
+Indirect Testing,196,Cause of,Obscure Test,Chapter 15,Code Smells
+Infrequently Run Tests,268,Cause of,Production Bugs,Chapter 17,Project Smells
+Interacting Test Suites,231,Cause of,Erratic Test,Chapter 16,Behavior Smells
+Interacting Tests,229,Cause of,Erratic Test,Chapter 16,Behavior Smells
+Interface Sensitivity,241,Cause of,Fragile Test,Chapter 16,Behavior Smells
+Irrelevant Information,192,Cause of,Obscure Test,Chapter 15,Code Smells
+Lonely Test,232,Cause of,Erratic Test,Chapter 16,Behavior Smells
+Lost Test,269,Cause of,Production Bugs,Chapter 17,Project Smells
+Manual Event Injection,281,Cause of,Manual Intervention,Chapter 16,Behavior Smells
+Manual Fixture Setup,250,Cause of,Manual Intervention,Chapter 16,Behavior Smells
+Manual Result Verification,251,Cause of,Manual Intervention,Chapter 16,Behavior Smells
+Missing Assertion Message,226,Cause of,Assertion Roulette,Chapter 16,Behavior Smells
+Missing Unit Test,271,Cause of,Production Bugs,Chapter 17,Project Smells
+Multiple Test Conditions,207,Cause of,Conditional Test Logic,Chapter 15,Code Smells
+Mystery Guest,188,Cause of,Obscure Test,Chapter 15,Code Smells
+Neverfail Test,274,Cause of,Production Bugs,Chapter 17,Project Smells
+Nondeterministic Test,237,Cause of,Erratic Test,Chapter 16,Behavior Smells
+Not Enough Time,263,Cause of,Developers Not Writing Tests,Chapter 17,Project Smells
+Overspecified Software,246,Cause of,Fragile Test,Chapter 16,Behavior Smells
+Production Logic in Test,204,Cause of,Conditional Test Logic,Chapter 15,Code Smells
+Reinventing the Wheel,215,Cause of,Test Code Duplication,Chapter 15,Code Smells
+Resource Leakage,233,Cause of,Erratic Test,Chapter 16,Behavior Smells
+Resource Optimism,233,Cause of,Erratic Test,Chapter 16,Behavior Smells
+Sensitive Equality,246,Cause of,Fragile Test,Chapter 16,Behavior Smells
+Slow Component Usage,254,Cause of,Slow Tests,Chapter 16,Behavior Smells
+Test Dependency in Production,220,Cause of,Test Logic in Production,Chapter 15,Code Smells
+Test Run War,235,Cause of,Erratic Test,Chapter 16,Behavior Smells
+Too Many Tests,256,Cause of,Slow Tests,Chapter 16,Behavior Smells
+Unrepeatable Test,234,Cause of,Erratic Test,Chapter 16,Behavior Smells
+Untestable Test Code,211,Cause of,Hard-to-Test Code,Chapter 15,Code Smells
+Untested Code,271,Cause of,Production Bugs,Chapter 17,Project Smells
+Untested Requirement,272,Cause of,Production Bugs,Chapter 17,Project Smells
+Wrong Test Automation Strategy,264,Cause of,Developers Not Writing Tests,Chapter 17,Project Smells

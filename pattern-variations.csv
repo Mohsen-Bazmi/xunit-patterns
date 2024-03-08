@@ -1,0 +1,148 @@
+Name,Page,Relationship,Base Name,Chapter,Type
+Abstract Setup Decorator,449,Variation,Setup Decorator,Chapter 20,Fixture Setup Patterns
+AllTests Suite,593,Variation,Named Test Suite,Chapter 24,Test Organization Patterns
+Anonymous Creation Method,417,Variation,Creation Method,Chapter 20,Fixture Setup Patterns
+Argument-Describing Message,371,Variation,Assertion Message,Chapter 19,xUnit Basics Patterns
+Assertion-Identifying Message,371,Variation,Assertion Message,Chapter 19,xUnit Basics Patterns
+Attachment Method,418,Variation,Creation Method,Chapter 20,Fixture Setup Patterns
+Automated Exercise Teardown,505,Variation,Automated Teardown,Chapter 22,Fixture Teardown Patterns
+Automated Fixture Teardown,504,Variation,Automated Teardown,Chapter 22,Fixture Teardown Patterns
+Back Door Setup,329,Variation,Back Door Manipulation,Chapter 18,Test Strategy Patterns
+Back Door Teardown,330,Variation,Back Door Manipulation,Chapter 18,Test Strategy Patterns
+Back Door Veriﬁcation,329,Variation,Back Door Manipulation,Chapter 18,Test Strategy Patterns
+Behavior-Exposing Subclass,580,Variation,Test-Speciﬁc Subclass,Chapter 23,Test Double Patterns
+Behavior-Modifying Subclass,580,Variation,Test-Speciﬁc Subclass,Chapter 23,Test Double Patterns
+Built-in Test Recording,281,Variation,Recorded Test,Chapter 18,Test Strategy Patterns
+Command-Line Test Runner,379,Variation,Test Runner,Chapter 19,xUnit Basics Patterns
+Component Test,340,Variation,Layer Test,Chapter 18,Test Strategy Patterns
+Conﬁguration Interface,560,Variation,Conﬁgurable Test Double,Chapter 23,Test Double Patterns
+Conﬁguration Mode,560,Variation,Conﬁgurable Test Double,Chapter 23,Test Double Patterns
+Constructor Injection,680,Variation,Dependency Injection,Chapter 26,Design-for-Testability Patterns
+Constructor Test,351,Variation,Test Method,Chapter 19,xUnit Basics Patterns
+Custom Assertion Test,477,Variation,Custom Assertion,Chapter 21,Result Veriﬁcation Patterns
+Custom Equality Assertion,476,Variation,Custom Assertion,Chapter 21,Result Veriﬁcation Patterns
+DB Schema per Test-Runner,651,Variation,Database Sandbox,Chapter 25,Database Patterns
+Data Loader,330,Variation,Back Door Manipulation,Chapter 18,Test Strategy Patterns
+Data Retriever,331,Variation,Back Door Manipulation,Chapter 18,Test Strategy Patterns
+Data-Driven Test Framework (Fit),290,Variation,Data-Driven Test,Chapter 18,Test Strategy Patterns
+Data-Driven Test Frameworks,300,Variation,Test Automation Framework,Chapter 18,Test Strategy Patterns
+Database Extraction Script,331,Variation,Back Door Manipulation,Chapter 18,Test Strategy Patterns
+Database Partitioning Scheme,652,Variation,Database Sandbox,Chapter 25,Database Patterns
+Database Population Script,330,Variation,Back Door Manipulation,Chapter 18,Test Strategy Patterns
+Decorated Lazy Setup,449,Variation,Setup Decorator,Chapter 20,Fixture Setup Patterns
+Dedicated Database Sandbox,651,Variation,Database Sandbox,Chapter 25,Database Patterns
+Delegated Teardown,511,Variation,In-line Teardown,Chapter 22,Fixture Teardown Patterns
+Derived Expectation,719,Variation,Derived Value,Chapter 27,Value Patterns
+Derived Input,719,Variation,Derived Value,Chapter 27,Value Patterns
+Diagnostic Assertion,476,Variation,Custom Assertion,Chapter 21,Result Veriﬁcation Patterns
+Direct Test Method Invocation,401,Variation,Test Enumeration,Chapter 19,xUnit Basics Patterns
+Distinct Generated Value,724,Variation,Generated Value,Chapter 27,Value Patterns
+Domain Assertion,476,Variation,Custom Assertion,Chapter 21,Result Veriﬁcation Patterns
+Dummy Argument,729,Variation,Dummy Object,Chapter 27,Value Patterns
+Dynamically Generated Test Double,561,Variation,Conﬁgurable Test Double,Chapter 23,Test Double Patterns
+Entity Chain Snipping,531,Variation,Test Stub,Chapter 23,Test Double Patterns
+Equality Assertion,365,Variation,Assertion Method,Chapter 19,xUnit Basics Patterns
+Expectation-Describing Message,371,Variation,Assertion Message,Chapter 19,xUnit Basics Patterns
+Expected Behavior Specification,470,Variation,Behavior Veriﬁcation,Chapter 21,Result Veriﬁcation Patterns
+Expected Exception Assertion,366,Variation,Assertion Method,Chapter 19,xUnit Basics Patterns
+Expected Exception Test,350,Variation,Test Method,Chapter 19,xUnit Basics Patterns
+Expected State Speciation,464,Variation,State Veriﬁcation,Chapter 21,Result Veriﬁcation Patterns
+External Test Recording,280,Variation,Recorded Test,Chapter 18,Test Strategy Patterns
+Fake Database,553,Variation,Fake Object,Chapter 23,Test Double Patterns
+Fake Service Layer,553,Variation,Fake Object,Chapter 23,Test Double Patterns
+Fake Web Service,553,Variation,Fake Object,Chapter 23,Test Double Patterns
+File System Test Runner,380,Variation,Test Runner,Chapter 19,xUnit Basics Patterns
+Finder Method,600,Variation,Test Utility Method,Chapter 24,Test Organization Patterns
+Fixture Setup Testcase,456,Variation,Chained Tests,Chapter 20,Fixture Setup Patterns
+Global Fixture,430,Variation,Prebuilt Fixture,Chapter 20,Fixture Setup Patterns
+Graphical Test Runner,378,Variation,Test Runner,Chapter 19,xUnit Basics Patterns
+Hard-Coded Setup Decorator,449,Variation,Setup Decorator,Chapter 20,Fixture Setup Patterns
+Humble Container Adapter,698,Variation,Humble Object,Chapter 26,Design-for-Testability Patterns
+Humble Dialog,696,Variation,Humble Object,Chapter 26,Design-for-Testability Patterns
+Humble Executable,697,Variation,Humble Object,Chapter 26,Design-for-Testability Patterns
+Humble Transaction Controller,697,Variation,Humble Object,Chapter 26,Design-for-Testability Patterns
+Immutable Shared Fixture,323,Variation,Shared Fixture,Chapter 18,Test Strategy Patterns
+In-Database Stored Procedure Test,655,Variation,Stored Procedure Test,Chapter 25,Database Patterns
+In-Memory Database,553,Variation,Fake Object,Chapter 23,Test Double Patterns
+Incremental Tabular Test,609,Variation,Parameterized Test,Chapter 24,Result Veriﬁcation Patterns
+Incremental Tests,322,Variation,Shared Fixture,Chapter 18,Test Strategy Patterns
+Indirect Output Registry,541,Variation,Test Spy,Chapter 23,Test Double Patterns
+Inner Test Double,570,Variation,Hard-Coded Test Double,Chapter 23,Test Double Patterns
+Lazy Teardown,663,Variation,Table Truncation Teardown,Chapter 25,Database Patterns
+Loop-Driven Test,610,Variation,Parameterized Test,Chapter 24,Result Veriﬁcation Patterns
+Naive In-line Teardown,511,Variation,In-line Teardown,Chapter 22,Fixture Teardown Patterns
+Naive xUnit Test Interpreter,292,Variation,Data-Driven Test,Chapter 18,Test Strategy Patterns
+Named State Reaching Method,417,Variation,Creation Method,Chapter 20,Fixture Setup Patterns
+Object Attribute Equality Assertion,476,Variation,Custom Assertion,Chapter 21,Result Veriﬁcation Patterns
+Object Mother,644,Variation,Test Helper,Chapter 24,Test Organization Patterns
+One Bad Attribute,719,Variation,Derived Value,Chapter 27,Value Patterns
+Parameter Injection,680,Variation,Dependency Injection,Chapter 26,Design-for-Testability Patterns
+Parameterized Anonymous Creation Method,417,Variation,Creation Method,Chapter 20,Fixture Setup Patterns
+Parameterized Creation Method,417,Variation,Creation Method,Chapter 20,Fixture Setup Patterns
+Parameterized Setup Decorator,449,Variation,Setup Decorator,Chapter 20,Fixture Setup Patterns
+Per-Run Fixture,323,Variation,Shared Fixture,Chapter 18,Test Strategy Patterns
+Persistence Layer Test,339,Variation,Layer Test,Chapter 18,Test Strategy Patterns
+Persistent Fresh Fixture,314,Variation,Fresh Fixture,Chapter 18,Test Strategy Patterns
+Poor Man’s Humble Object,699,Variation,Humble Object,Chapter 26,Design-for-Testability Patterns
+Presentation Layer Test,338,Variation,Layer Test,Chapter 18,Test Strategy Patterns
+Procedural Behavior Veriﬁcation,470,Variation,Behavior Veriﬁcation,Chapter 21,Result Veriﬁcation Patterns
+Procedural State Veriﬁcation,463,Variation,State Veriﬁcation,Chapter 21,Result Veriﬁcation Patterns
+Procedural Test Stub,526,Variation,Test Stub,Chapter 23,Test Double Patterns
+Pseudo-Object,571,Variation,Hard-Coded Test Double,Chapter 23,Test Double Patterns
+Pushdown Decorator,450,Variation,Setup Decorator,Chapter 20,Fixture Setup Patterns
+Random Generated Value,724,Variation,Generated Value,Chapter 27,Value Patterns
+Refactored Recorded Test,280,Variation,Recorded Test,Chapter 18,Test Strategy Patterns
+Related Generated Value,725,Variation,Generated Value,Chapter 27,Value Patterns
+Remoted Stored Procedure Test,656,Variation,Stored Procedure Test,Chapter 25,Database Patterns
+Responder,530,Variation,Test Stub,Chapter 23,Test Double Patterns
+Retrieval Interface,540,Variation,Test Spy,Chapter 23,Test Double Patterns
+Reuse Test for Fixture Setup,418,Variation,Creation Method,Chapter 20,Fixture Setup Patterns
+Robot User Test Framework,299,Variation,Test Automation Framework,Chapter 18,Test Strategy Patterns
+SUT Encapsulation Method,601,Variation,Test Utility Method,Chapter 24,Test Organization Patterns
+Saboteur,530,Variation,Test Stub,Chapter 23,Test Double Patterns
+Self Shunt,540,Variation,Hard-Coded Test Double,Chapter 23,Test Double Patterns
+Self-Describing Value,715,Variation,Literal Value,Chapter 27,Value Patterns
+Service Layer Test,339,Variation,Layer Test,Chapter 18,Test Strategy Patterns
+Setter Injection,681,Variation,Dependency Injection,Chapter 26,Design-for-Testability Patterns
+Shared Fixture State Assertion,491,Variation,Guard Assertion,Chapter 21,Result Veriﬁcation Patterns
+Simple Success Test,349,Variation,Test Method,Chapter 19,xUnit Basics Patterns
+Single-Outcome Assertion,366,Variation,Assertion Method,Chapter 19,xUnit Basics Patterns
+Single Test Suite,593,Variation,Named Test Suite,Chapter 24,Test Organization Patterns
+Slow Tests,318,Variation,Shared Fixture,Chapter 18,Test Strategy Patterns
+State-Exposing Subclass,580,Variation,Test-Speciﬁc Subclass,Chapter 23,Test Double Patterns
+Stated Outcome Assertion,366,Variation,Assertion Method,Chapter 19,xUnit Basics Patterns
+Statically Generated Test Double,561,Variation,Conﬁgurable Test Double,Chapter 23,Test Double Patterns
+Subclassed Humble Object,700,Variation,Humble Object,Chapter 26,Design-for-Testability Patterns
+Subcutaneous Test,340,Variation,Layer Test,Chapter 18,Test Strategy Patterns
+Subset Suite,593,Variation,Named Test Suite,Chapter 24,Test Organization Patterns
+Substituted Singleton,581,Variation,Test-Speciﬁc Subclass,Chapter 23,Test Double Patterns
+Suite of Suites,388,Variation,Test Suite Object,Chapter 19,xUnit Basics Patterns
+Symbolic Constant,715,Variation,Literal Value,Chapter 27,Value Patterns
+Tabular Test,609,Variation,Parameterized Test,Chapter 24,Test Organization Patterns
+Teardown Guard Clause,511,Variation,In-line Teardown,Chapter 22,Fixture Teardown Patterns
+Temporary Test Stub,530,Variation,Test Stub,Chapter 23,Test Double Patterns
+Test Double Class,569,Variation,Hard-Coded Test Double,Chapter 23,Test Double Patterns
+Test Double Subclass,580,Variation,Test-Speciﬁc Subclass,Chapter 23,Test Double Patterns
+Test Double as Back Door,332,Variation,Back Door Manipulation,Chapter 18,Test Strategy Patterns
+Test Fixture Registry,644,Variation,Test Helper,Chapter 24,Test Organization Patterns
+Test Helper Class,645,Variation,Test Helper,Chapter 24,Test Organization Patterns
+Test Helper Mixin,639,Variation,Testcase Superclass,Chapter 24,Test Organization Patterns
+Test Helper Object,645,Variation,Test Helper,Chapter 24,Test Organization Patterns
+Test Method Discovery,394,Variation,Test Discovery,Chapter 19,xUnit Basics Patterns
+Test Method Enumeration,401,Variation,Test Enumeration,Chapter 19,xUnit Basics Patterns
+Test Method Selection,404,Variation,Test Selection,Chapter 19,xUnit Basics Patterns
+Test Suite Enumeration,400,Variation,Test Enumeration,Chapter 19,xUnit Basics Patterns
+Test Suite Object Generator,293,Variation,Data-Driven Test,Chapter 18,Test Strategy Patterns
+Test Suite Object Simulator,293,Variation,Data-Driven Test,Chapter 18,Test Strategy Patterns
+Test Suite Procedure,388,Variation,Test Suite Object,Chapter 19,xUnit Basics Patterns
+Test Tree Explorer,380,Variation,Test Runner,Chapter 19,xUnit Basics Patterns
+Test Utility Test,603,Variation,Test Utility Method,Chapter 24,Test Organization Patterns
+Testcase Class Discovery,394,Variation,Test Discovery,Chapter 19,xUnit Basics Patterns
+Testcase Class per Method,625,Variation,Testcase Class per Feature,Chapter 24,Test Organization Patterns
+Testcase Class per User Story,625,Variation,Testcase Class per Feature,Chapter 24,Test Organization Patterns
+Testcase Class Selection,404,Variation,Test Selection,Chapter 19,xUnit Basics Patterns
+Testcase Class Suite,388,Variation,Test Suite Object,Chapter 19,xUnit Basics Patterns
+The xUnit Family,300,Variation,Test Automation Framework,Chapter 18,Test Strategy Patterns
+Transient Fresh Fixture,314,Variation,Fresh Fixture,Chapter 18,Test Strategy Patterns
+True Humble Object,699,Variation,Humble Object,Chapter 26,Design-for-Testability Patterns
+Veriﬁcation Method,477,Variation,Custom Assertion,Chapter 21,Result Veriﬁcation Patterns

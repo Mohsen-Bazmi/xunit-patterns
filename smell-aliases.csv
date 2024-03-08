@@ -1,0 +1,8 @@
+Name,Page,Relationship,Base Name,Chapter,Type
+Complex Test,186,Alias,Obscure Test,Chapter 15,Code Smells
+Hard-Coded Dependency,210,Alias,Hard-to-Test Code,Chapter 15,Code Smells
+Indented Test Code,200,Alias,Conditional Test Logic,Chapter 15,Code Smells
+Long Test,186,Alias,Obscure Test,Chapter 15,Code Smells
+Manual Debugging,248,Alias,Frequent Debugging,Chapter 16,Behavior Smells
+Overcoupled Test,246,Alias,Fragile Test,Chapter 16,Behavior Smells
+Verbose Test,186,Alias,Obscure Test,Chapter 15,Code Smells
